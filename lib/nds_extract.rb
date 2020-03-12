@@ -42,6 +42,7 @@ def total_gross(source)
   while big_index < director_name.length do 
     name_lookup = director_name[big_index]
     total_everyone += director_name_gross[name_lookup]
+    big_index += 1
   end 
   total_everyone
   # Write this implementation
