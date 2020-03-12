@@ -35,6 +35,8 @@ def list_of_directors(source)
 end
 
 def total_gross(source)
+  total_everyone = 0 
+  
   # Write this implementation
   #
   # Should use methods:
