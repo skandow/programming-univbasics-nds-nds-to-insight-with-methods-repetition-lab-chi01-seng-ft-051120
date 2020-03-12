@@ -36,7 +36,14 @@ end
 
 def total_gross(source)
   total_everyone = 0 
-  
+  director_name_gross = directors_totals(source)
+  director_name = list_of_directors(source)
+  big_index = 0 
+  while big_index < director_name.length do 
+    name_lookup = director_name[big_index]
+    total_everyone += director_name_gross[name_lookup]
+  end 
+  total_everyone
   # Write this implementation
   #
   # Should use methods:
